@@ -13,8 +13,8 @@ app.use(cors());
 
 userRoute(app)
 
-const port = 8000;
+const port = 5000;
 
 app.get("/", (req, res) => res.send("Serve start"));
 
-app.listen(port, () => console.log("Server iniciado!"));
+app.listen(process.env.PORT || port, () => console.log("Server iniciado!"));
