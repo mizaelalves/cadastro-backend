@@ -23,8 +23,10 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "netlify-lambda": "^2.0.14",
+    "node-gyp": "^7.1.2",
     "rimraf": "^3.0.2",
     "sequelize": "^6.6.5",
+    "sqlite": "^4.0.23",
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
