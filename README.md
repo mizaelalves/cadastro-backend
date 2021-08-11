@@ -1,24 +1,21 @@
+<h1 align="center">🪐 Users API</h1>
+<br>
+<p align="center">🚀 This is an API using Node.js, Express and SQLite</p>
 
-## NODE.js
-## Instalando
 
-Para instalá-lo em sua máquina faça os comandos a seguir:
+<h4 align="center"> 
+	This API send data to https://usuarios-frontend.vercel.app<br>
+<a href="https://github.com/mizaelalves/usuarios-frontend">click here to go to the usuarios-frontend repository</a>
+</h4>
 
-``` bash
-  git clone git@github.com:mizaelalves/cadastro-backend.git
-  cd backend
-  npm install
-  npm start
-```
+# Clone this repository
+$ git clone <https://github.com/mizaelalves/cadastro-backend>
 
-#### Atenção
+# Access the folder
+$ cd cadastro-backend
 
-É necessário ter a variável de ambiente: `NODE_ENV=development` configurada em seu sistema operacional para rodar em máquina local.
+# Install all dependences
+$ yarn install
 
-Se não quiser criar esta variável você rode o comando `NODE_ENV=development npm start`.
-
-E depois acesse no seu navegador o endereço: http://localhost:3000
-
-## Autor
-Mizael Alves da Silva
-Email: <mizaelbna@hotmail.com>
+# Run application in development mode
+$ yarn run watch-node
