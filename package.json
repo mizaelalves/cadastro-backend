@@ -1,0 +1,38 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+    "serve": "node src/index.js"
+  },
+  "scripts": {
+    "serve": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-node": "nodemon index.js",
+    "transpile": "babel ./server --out-dir dist-server"
+  },
+  "author": "Mizael",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "dependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "rimraf": "^3.0.2",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.12",
+    "watch": "^0.13.0"
+  }
+}
