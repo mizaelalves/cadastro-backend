@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node server.js",
+    "build": "node ./api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch-node": "nodemon server.js",
+    "watch-node": "nodemon ./api/index.js",
     "transpile": "babel ./server --out-dir dist-server"
   },
   "author": "Mizael",
