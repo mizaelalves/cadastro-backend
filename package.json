@@ -7,6 +7,8 @@
     "serve": "node src/index.js"
   },
   "scripts": {
+    "build": "netlify-lambda build express",
+    "start": "nodemon server-local.js",
     "serve": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch-node": "nodemon index.js",
@@ -25,6 +27,7 @@
     "@babel/preset-env": "^7.15.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "netlify-lambda": "^2.0.14",
     "rimraf": "^3.0.2",
     "sequelize": "^6.6.5",
     "sqlite3": "^5.0.2"
