@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "netlify-lambda build express",
-    "start": "nodemon server-local.js",
+    "start": "nodemon server.js",
     "serve": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch-node": "nodemon index.js",
