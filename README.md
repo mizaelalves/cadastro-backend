@@ -19,3 +19,4 @@ $ yarn install
 
 # Run application in development mode
 $ yarn run watch-node
+$ http://localhost:8000
