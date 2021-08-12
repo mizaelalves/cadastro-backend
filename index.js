@@ -17,4 +17,4 @@ const port = 5000;
 
 app.get("/", (req, res) => res.send("Serve start"));
 
-app.listen(process.env.PORT || port, () => console.log("Server iniciado!"));
+app.listen(process.env.PORT || port, () => console.log("\nServer iniciado na porta 5000!\n"));
