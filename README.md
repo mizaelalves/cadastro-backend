@@ -18,7 +18,7 @@ $ cd cadastro-backend
 $ yarn install
 
 # Run application in development mode
-$ yarn run watch-node
+$ yarn run watch
 
 # Address
 $ http://localhost:5000
