@@ -17,10 +17,11 @@ const userRoute = (app) => {
     await User.create(req.body);
     res.send(req.body);
   });
-  app.delete("/users/:id?", (req, res) => {
-    User.destroy({ where: { id: id } });
+  app.delete("/users/:id", async(req, res) => {
+    const requestedId = req.params.id;
+    await User.destroy({where: { id: requestedId }})
 
-    res.status(201);
+    res.send('removed');
   });
 };
 
