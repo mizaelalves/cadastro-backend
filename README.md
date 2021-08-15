@@ -4,7 +4,7 @@
 
 
 <h4 align="center"> 
-	This API send data to https://usuarios-frontend.vercel.app<br>
+	This API connect to front-end https://usuarios-frontend.vercel.app<br>
 <a href="https://github.com/mizaelalves/usuarios-frontend">click here to go to the usuarios-frontend repository</a>
 </h4>
 
