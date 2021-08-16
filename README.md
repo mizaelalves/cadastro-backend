@@ -4,7 +4,7 @@
 
 
 <h4 align="center"> 
-	This API send data to https://usuarios-frontend.vercel.app<br>
+	This API connect to front-end https://usuarios-frontend.vercel.app<br>
 <a href="https://github.com/mizaelalves/usuarios-frontend">click here to go to the usuarios-frontend repository</a>
 </h4>
 
@@ -18,7 +18,7 @@ $ cd cadastro-backend
 $ yarn install
 
 # Run application in development mode
-$ yarn run watch-node
+$ yarn run watch
 
 # Address
 $ http://localhost:5000
