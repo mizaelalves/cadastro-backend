@@ -1,4 +1,4 @@
-const User = require("./api/User");
+const User = require("./User");
 
 const userRoute = (app) => {
   app.get("/users", async (req, res) => {
