@@ -20,7 +20,6 @@ const userRoute = (app) => {
   app.delete("/users/:id", async(req, res) => {
     const requestedId = req.params.id;
     await User.destroy({where: { id: requestedId }})
-
     res.send('removed');
   });
 };
